@@ -13,4 +13,4 @@ for host in nm.all_hosts():
         port_info = nm[host][protocol]
         
         for port, state in port_info.items():
-            print("\nPort: %s\tState: %s" % (port, state) )
+            print("\nPort: %s\tState: %s\n" % (port, state) )
